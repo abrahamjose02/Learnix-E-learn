@@ -1,0 +1,36 @@
+[submodule "Frontend"]
+	path = Frontend
+	url = https://github.com/abrahamjose02/Learnix-frontend.git
+[submodule "Backend/User-service"]
+	path = Backend/User-service
+	url = https://github.com/abrahamjose02/Learnix_User.git
+[submodule "K8s"]
+	path = K8s
+	url = https://github.com/abrahamjose02/K8s.git
+[submodule "Api_gateway-service"]
+	path = Api_gateway-service
+	url = https://github.com/abrahamjose02/Learnix-API_Gateway.git
+[submodule "Backend/Api_gateway-service"]
+	path = Backend/Api_gateway-service
+	url = https://github.com/abrahamjose02/Learnix-API_Gateway.git
+[submodule "Backend/Auth-service"]
+	path = Backend/Auth-service
+	url = https://github.com/abrahamjose02/Learnix_Auth.git
+[submodule "Backend/Transcoder-service"]
+	path = Backend/Transcoder-service
+	url = https://github.com/abrahamjose02/Learnix-Transcoder.git
+[submodule "Backend/Admin-service"]
+	path = Backend/Admin-service
+	url = https://github.com/abrahamjose02/Learnix-Admin.git
+[submodule "Backend/Course-service"]
+	path = Backend/Course-service
+	url = https://github.com/abrahamjose02/Learnix-Course.git
+[submodule "Backend/Instructor-service"]
+	path = Backend/Instructor-service
+	url = https://github.com/abrahamjose02/Learnix-Instructor.git
+[submodule "Backend/Notification-service"]
+	path = Backend/Notification-service
+	url = https://github.com/abrahamjose02/Learnix_Notification.git
+[submodule "Backend/Order-service"]
+	path = Backend/Order-service
+	url = https://github.com/abrahamjose02/Learnix-Order.git

@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  apigateway:
+    image: abrahamjose04/learnix-api_gateway:latest
+    ports:
+      - "8000:8000"
+    networks:
+      - learnix-network
+
+  transcoder:
+    image: abrahamjose04/learnix-transcoder:latest
+    ports:
+      - "8001:8001"
+    networks:
+      - learnix-network
+
+  user:
+    image: abrahamjose04/learnix-user:latest
+    networks:
+      - learnix-network
+
+  auth:
+    image: abrahamjose04/learnix-auth:latest
+    networks:
+      - learnix-network
+
+  notification:
+    image: abrahamjose04/learnix-notification:latest
+    networks:
+      - learnix-network
+
+  instructor:
+    image: abrahamjose04/learnix-instructor:latest
+    networks:
+      - learnix-network
+
+  admin:
+    image: abrahamjose04/learnix-admin:latest
+    networks:
+      - learnix-network
+
+  course:
+    image: abrahamjose04/learnix-courses:latest
+    networks:
+      - learnix-network
+
+  order:
+    image: abrahamjose04/learnix-order:latest
+    networks:
+      - learnix-network
+
+networks:
+  learnix-network:
+    driver: bridge
